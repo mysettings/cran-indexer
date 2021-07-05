@@ -18,8 +18,5 @@ module CranIndexer
     #
     # config.time_zone = "Central Time (US & Canada)"
     # config.eager_load_paths << Rails.root.join("extras")
-
-    # Set RSpec to be the default testing framework
-    config.test_framework :rspec
   end
 end
