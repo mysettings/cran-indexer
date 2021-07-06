@@ -6,6 +6,13 @@
 
 2. `bundle install`
 
+3. Create the database and apply the migrations:
+
+```
+rails db:create
+rails db:migrate
+```
+
 ## Usage
 
 Start sidekiq to run background jobs: `bundle exec sidekiq -C config/sidekiq.yml`
