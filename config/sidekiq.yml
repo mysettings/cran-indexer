@@ -1,0 +1,4 @@
+---
+:concurrency: <%= ENV['SIDEKIQ_THREADS'] || 5 %>
+:queues:
+  - [package_update, 200]

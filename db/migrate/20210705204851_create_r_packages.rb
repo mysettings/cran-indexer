@@ -5,7 +5,7 @@ class CreateRPackages < ActiveRecord::Migration[6.1]
     create_table :r_packages, id: :uuid do |t|
       t.string :name
       t.string :version
-      t.datetime :published_dat
+      t.datetime :published_at
       t.string :title
       t.text :description
       t.jsonb :authors

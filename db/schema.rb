@@ -19,7 +19,7 @@ ActiveRecord::Schema.define(version: 2021_07_05_204851) do
   create_table "r_packages", id: :uuid, default: -> { "gen_random_uuid()" }, force: :cascade do |t|
     t.string "name"
     t.string "version"
-    t.datetime "published_dat"
+    t.datetime "published_at"
     t.string "title"
     t.text "description"
     t.jsonb "authors"
