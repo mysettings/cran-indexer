@@ -8,7 +8,7 @@
 
 ## Usage
 
-Start sidekiq to running background jobs: `bundle exec sidekiq -C config/sidekiq.yml`
+Start sidekiq to run background jobs: `bundle exec sidekiq -C config/sidekiq.yml`
 
 Run the rake task to fetching the R packages: `rails index_r_packages`
 
