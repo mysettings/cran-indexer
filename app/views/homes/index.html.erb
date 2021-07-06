@@ -1,0 +1,9 @@
+<% @r_packages.each do |package| %>
+  <h2><%= package.name %></h2>
+  <div><%= "Version: #{package.version}" %></div>
+  <div><%= "Published at: #{package.published_at}" %></div>
+  <div><%= "Title: #{package.title}" %></div>
+  <div><%= "Description: #{package.description}" %></div>
+  <div><%= "Authors: #{package.authors}" %></div>
+  <div><%= "Maintainers: #{package.maintainers}" %></div>
+<% end %>
